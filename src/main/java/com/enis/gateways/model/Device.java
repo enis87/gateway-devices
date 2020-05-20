@@ -29,7 +29,7 @@ public class Device {
 
     @JsonIgnore
     @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "gatewaySerial")
+    @JoinColumn(name = "serial")
     private Gateway gateway;
 
     public Device() {
