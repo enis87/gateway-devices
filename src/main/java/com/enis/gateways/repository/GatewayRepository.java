@@ -9,6 +9,5 @@ import java.util.Optional;
 
 @Repository
 public interface GatewayRepository extends JpaRepository<Gateway, String> {
-    Optional<Device> findByUid(Long uid);
 
 }
